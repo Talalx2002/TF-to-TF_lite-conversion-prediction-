@@ -30,9 +30,9 @@ This repository provides scripts for converting TensorFlow models to TensorFlow 
 
 ## Folder Structure
 
-- **models**: Contains the original TensorFlow model file and the converted TensorFlow Lite model.
-- **code**: Contains the Python scripts for model conversion and prediction.
-- **images**: Contains sample input images for prediction.
+- **Conversion and Prediction**: Contains the Python scripts for model conversion and prediction.
+  - `TF to TFLite.py`: Script to convert a TensorFlow model to TensorFlow Lite format.
+  - `TFLite Prediction.py`: Script to perform predictions using the converted TensorFlow Lite model.
 
 ## License
 
